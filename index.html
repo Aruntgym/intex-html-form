@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body
+    style="background: whitesmoke"></style>
+    <h1>Application Form</h1>
+    <main>
+        <main>
+            <fieldset style="background: wheat;">
+            <legend><h1>Basic Form</h1></legend>
+    <form>
+    <label for="role">Role :</label><br/>
+    <input id="role" name="role" type="text" value="Full Stack Developer" readonly /><br/>
+    <label for="fname">First name :</label><br/>
+    <input required type="text"  id="fname" name="fname" placeholder="first name" /><br/>
+    <label for="lname">Last name :</label><br/>
+    <input required type="text" id="lname" name="lname" placeholder="last name" /><br/>
+    <!-- <label for="password">password :</label><br/>
+    <input required type="password" id="password" name="password" placeholder="Enter password" /><br/><br/> -->
+    <label for="DOB">DOB :</label><br/>
+    <input type="date"><br/>
+    <label for="gender">Gender :</label><br/>
+    <input type="radio" name="gender">male<br>
+    <input type="radio" name="gender">female<br>
+    <input type="radio" name="gender">other<br>
+    <label for="email">Email</label><br/>
+    <input required type="email" placeholder="Enter the email" name="email"/><br/>
+    <label for="languages">Languages :</label><br/>
+    <input type="checkbox" name="languages" value="c">C
+    <input type="checkbox" name="languages" value="c++">C++
+    <input type="checkbox" name="languages" value="java">Java
+    <input type="checkbox" name="languages" value="python">Python
+    <input type="checkbox" name="languages" value="htmlcss">HtmlCss
+    <input type="checkbox" name="languages" value="javascript">Javascript
+    <input type="checkbox" name="languages" value="react">React
+    <input type="checkbox" name="languages" value="nods js">Node Js
+    <input type="checkbox" name="languages" value="express">Express
+    <input type="checkbox" name="languages" value="mysql">Mysql
+    <input type="checkbox" name="languages" value="mongodb">MongoDB
+    <input type="checkbox" name="languages" value="other">Other
+    <br/>
+    <label for="skill level">Skill Level</label>
+    <input type="range"><br>
+    <label for="department">Department :</label><br/>
+    <select>
+    <option >Choose one</option>
+    <option value="computer application">COMPUTER APPLICATION</option>
+    <option value="computer science">COMPUTER SCIENCE</option>
+    <option value="computer id">COMPUTER ID</option>
+    <option value="computer engineering">COMPUTER ENGINEERING</option>
+    </select><br/>
+    <label for="text">Text About Yourself :</label><br/>
+    <textarea rows="10" cols="30" placeholder="Yourself !!!"></textarea><br/>
+    <label for="file">Upload Resume :</label><br/>
+    <input type="file"><br/>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </form>
+</fieldset>
+</body>
+</html>
